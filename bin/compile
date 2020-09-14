@@ -1,0 +1,10 @@
+#!/bin/bash
+
+arguments_info() {
+        echo "\$0 : $0"
+        echo "\$@ : $@"
+        echo "\$# : $#"
+}
+
+arguments_info "$@"
+
